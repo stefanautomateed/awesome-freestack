@@ -1,8 +1,8 @@
 # Awesome Freestack [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Curated free developer tools and student unlocks — with **limits**, who can claim them, and commercial notes.
+Curated free developer tools, student unlocks, and startup-lean / AI cost options — with **limits**, who can claim them, and commercial notes.
 
-Companion site: [`freestack`](../freestack) (directory UI). Offers rotate; re-check vendor pages.
+Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo [`freestack`](https://github.com/kuyacarlo/freestack). Offers rotate; re-check vendor pages.
 
 ## Contents
 
@@ -13,6 +13,8 @@ Companion site: [`freestack`](../freestack) (directory UI). Offers rotate; re-ch
 - [Storage & media](#storage-media)
 - [Jobs & automation](#jobs-automation)
 - [Observability](#observability)
+- [AI & models](#ai-models)
+- [Startup lean](#startup-lean)
 - [Student unlocks](#student-unlocks)
 - [Design & CAD](#design-cad)
 - [Cloud credits](#cloud-credits)
@@ -78,6 +80,42 @@ Companion site: [`freestack`](../freestack) (directory UI). Offers rotate; re-ch
 - **[Axiom](https://axiom.co)**: Structured logs that don't melt your laptop. Limits: Generous free ingest (~500 GB/mo class). Who: anyone. Cost: free forever. commercial ok.
 - **[UptimeRobot](https://uptimerobot.com)**: Know when the free PaaS fell asleep. Limits: 50 monitors. Who: anyone. Cost: free forever. commercial ok.
 
+## AI & models
+
+- **[OpenRouter](https://openrouter.ai)**: One API for many models — route cheap for drafts, frontier for hard steps. Limits: Pay-per-token · free-tier models available · set spend caps. Who: anyone. Cost: credits. commercial ok.
+- **[Groq](https://console.groq.com)**: Very fast inference — good for chat/tool loops before you need GPT-class quality. Limits: Free quota then PAYG · rate limits apply. Who: anyone. Cost: free forever. check ToS.
+- **[Google AI Studio](https://aistudio.google.com)**: Gemini API for prototypes — often the cheapest path to a capable model. Limits: Free quota for experimentation · check commercial ToS. Who: anyone. Cost: free forever. check ToS.
+- **[Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)**: Edge inference next to your Workers — tiny models, low ops. Limits: Daily free neurons · then usage pricing. Who: anyone. Cost: free forever. commercial ok.
+- **[Together AI](https://www.together.ai)**: Open-weight hosting when you want control without self-hosting GPUs. Limits: PAYG · occasional free credits via promos. Who: anyone. Cost: credits. commercial ok.
+- **[Fireworks AI](https://fireworks.ai)**: Fast open-model inference for product features that don't need Opus. Limits: PAYG · free trial credits often. Who: anyone. Cost: credits. commercial ok.
+- **[OpenAI API](https://platform.openai.com)**: Pay only when cheaper models fail — wire hard budget alerts day one. Limits: No forever free · usage billing · project spend limits. Who: anyone. Cost: credits. commercial ok.
+- **[Anthropic API](https://console.anthropic.com)**: Claude for agent/tool use — keep it off the hot path until revenue. Limits: Usage billing · set org spend caps. Who: anyone. Cost: credits. commercial ok.
+- **[Replicate](https://replicate.com)**: Run public models (vision, voice, image) without owning GPUs. Limits: PAYG per second · free trial credit windows. Who: anyone. Cost: credits. commercial ok.
+- **[Modal](https://modal.com)**: Serverless GPU/CPU jobs — batch embeddings and fine-tunes without a cluster. Limits: Free credits on signup · then usage. Who: anyone. Cost: credits. commercial ok.
+- **[Langfuse](https://langfuse.com)**: LLM observability — traces, costs, evals before your bill surprises you. Limits: Generous free cloud · self-host free. Who: anyone. Cost: free forever. commercial ok.
+- **[Helicone](https://www.helicone.ai)**: Proxy for LLM APIs — caching + spend visibility with one base URL swap. Limits: Free tier with request caps. Who: anyone. Cost: free forever. commercial ok.
+- **[Mem0](https://mem0.ai)**: Managed memory layer for agents so you don't reinvent user context stores. Limits: Free tier for early agents. Who: anyone. Cost: free forever. commercial ok.
+- **[Browserbase](https://www.browserbase.com)**: Hosted browsers for agent scraping/automation without Playwright ops. Limits: Free trial / starter caps · then usage. Who: anyone. Cost: credits. commercial ok.
+
+## Startup lean
+
+- **[AWS Activate](https://aws.amazon.com/activate/)**: Startup cloud credits — apply via accelerator/partner or Activate Founders. Limits: $1k–$100k+ depending on path · expires. Who: anyone. Cost: credits. commercial ok.
+- **[Google for Startups Cloud](https://cloud.google.com/startup)**: GCP credits for eligible startups — pair with Skills Boost for learning. Limits: Program credits vary · application required. Who: anyone. Cost: credits. commercial ok.
+- **[Microsoft for Startups](https://www.microsoft.com/en-us/startups)**: Azure credits + GitHub/OpenAI perks for accepted startups. Limits: Application + eligibility · credit packages vary. Who: anyone. Cost: credits. commercial ok.
+- **[Stripe Atlas](https://stripe.com/atlas)**: Incorporate + bank + Stripe in one path — not free, but fewer lawyers early. Limits: One-time fee · not a free tier. Who: anyone. Cost: discount. commercial ok.
+- **[Clerk (startup path)](https://clerk.com)**: Auth that ships — stay on free MAU until you have users worth billing. Limits: 50k MRU free · then paid. Who: anyone. Cost: free forever. commercial ok.
+- **[PostHog](https://posthog.com)**: Product analytics without a $enterprise contract — free until you scale events. Limits: ~1M events/mo free across products. Who: anyone. Cost: free forever. commercial ok.
+- **[Plausible / Umami](https://umami.is)**: Privacy-first analytics when PostHog is overkill for a brochure site. Limits: Umami Cloud free tier · Plausible paid (or self-host). Who: anyone. Cost: free forever. commercial ok.
+- **[Cal.com](https://cal.com)**: Scheduling without Calendly tax — self-host or free cloud seats. Limits: Free cloud plan · self-host unlimited. Who: anyone. Cost: free forever. commercial ok.
+- **[Crisp / Chatwoot](https://www.chatwoot.com)**: Customer chat on a budget — Chatwoot self-host if you want $0. Limits: Crisp free tier · Chatwoot OSS. Who: anyone. Cost: free forever. commercial ok.
+- **[Linear](https://linear.app)**: Issue tracking that teams actually use — free for small startups. Limits: Free for small teams · startup programs exist. Who: anyone. Cost: free forever. commercial ok.
+- **[Notion (team)](https://www.notion.so)**: Docs + wiki — Free/Plus until you need SAML; don't buy Enterprise early. Limits: Free plan solid · student Plus via Edu. Who: student helps. Cost: free forever. commercial ok.
+- **[Loom / Screen Studio lite paths](https://www.loom.com)**: Async demos for sales and support without a video team. Limits: Loom free caps · or OBS + R2 for $0 hosting. Who: anyone. Cost: free forever. check ToS.
+- **[Paddle / Lemon Squeezy](https://www.lemonsqueezy.com)**: Merchant of record — taxes/VAT handled so you can sell globally early. Limits: Fee % of revenue · no monthly until you sell. Who: anyone. Cost: discount. commercial ok.
+- **[Plain / Freshdesk Lite](https://www.plain.com)**: Support inbox when Discord DMs stop scaling. Limits: Free tiers / trials · graduate when ticket volume hurts. Who: anyone. Cost: free forever. commercial ok.
+- **[Fly.io](https://fly.io)**: Global VMs near users — PAYG after free allowances changed; still lean vs hyperscale. Limits: No classic free tier for new accounts · small bills if sized right. Who: anyone. Cost: credits. commercial ok.
+- **[HTMX + Go/Python SSR](https://htmx.org)**: Skip SPA tax until product-market fit — fewer JS bundles, cheaper hosting. Limits: Open source · pairs with Cloudflare/Koyeb/Oracle. Who: anyone. Cost: free forever. commercial ok.
+
 ## Student unlocks
 
 - **[GitHub Student Developer Pack](https://education.github.com/pack)**: One verification unlocks 80+ partner offers + Pro/Copilot/Codespaces. Limits: Re-verify ~2 yrs · partner offers rotate. Who: student required. Cost: student free. check ToS.
@@ -124,7 +162,6 @@ Companion site: [`freestack`](../freestack) (directory UI). Offers rotate; re-ch
 - **[Tinybird](https://www.tinybird.co)**: ClickHouse-backed APIs from event streams. Limits: Free starter tier. Who: anyone. Cost: free forever. commercial ok.
 - **[Svix](https://www.svix.com)**: Outbound webhook delivery (Hookdeck's dual for sending). Limits: ~50k messages/mo. Who: anyone. Cost: free forever. commercial ok.
 - **[Dub.co](https://dub.co)**: Link shortener with analytics — no Bitly tax. Limits: Free plan. Who: anyone. Cost: free forever. commercial ok.
-- **[Groq / Google AI Studio](https://console.groq.com)**: Free LLM API quotas for MVP experiments. Limits: Quota-based free tiers. Who: anyone. Cost: free forever. check ToS.
 - **[Hugging Face Spaces](https://huggingface.co/spaces)**: Prototype ML demos on free CPU Spaces. Limits: Free CPU · limited inference. Who: anyone. Cost: free forever. commercial ok.
 - **[Cron-job.org](https://cron-job.org)**: External cron — ping sleeping Render apps before demos. Limits: Free external cron jobs. Who: anyone. Cost: free forever. commercial ok.
 - **[Zyte Scrapy Cloud (Pack)](https://www.zyte.com)**: One Scrapy Cloud unit forever via Pack. Limits: 1 unit forever · 120d retention. Who: student required. Cost: student free. commercial ok.
