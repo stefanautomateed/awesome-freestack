@@ -2,7 +2,7 @@
 
 Curated free developer tools, student unlocks, startup-lean / AI / security / PH campus options — with **limits**, who can claim them, and commercial notes.
 
-Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo [`freestack`](https://github.com/kuyacarlo/freestack). Offers rotate; re-check vendor pages.
+Companion site: [freestac.kuyacarlo.dev](https://freestack.kuyacarlo.dev) · repo [`freestack`](https://github.com/kuyacarlo/freestack). Offers rotate; re-check vendor pages.
 
 ## Contents
 
@@ -217,6 +217,12 @@ Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo
 - **[Zyte Scrapy Cloud (Pack)](https://www.zyte.com)**: One Scrapy Cloud unit forever via Pack. Limits: 1 unit forever · 120d retention. Who: student required. Cost: student free. commercial ok.
 
 ---
+
+## Related
+
+- Site: [freestack.kuyacarlo.dev](https://freestack.kuyacarlo.dev) — filterable directory + startup lean guide
+- Source data: [`kuyacarlo/freestack`](https://github.com/kuyacarlo/freestack) (`src/data/tools.ts`)
+- PH campus lists: [Awesome PH EdTech](https://github.com/smmariquit/awesome-ph-edtech), [Awesome PH Student Life](https://github.com/smmariquit/awesomeph-studentlife)
 
 ## Contributing
 
