@@ -1,0 +1,142 @@
+# Awesome Freestack [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+Curated free developer tools and student unlocks — with **limits**, who can claim them, and commercial notes.
+
+Companion site: [`freestack`](../freestack) (directory UI). Offers rotate; re-check vendor pages.
+
+## Contents
+
+- [Databases](#databases)
+- [Hosting](#hosting)
+- [Auth & secrets](#auth-secrets)
+- [Email & forms](#email-forms)
+- [Storage & media](#storage-media)
+- [Jobs & automation](#jobs-automation)
+- [Observability](#observability)
+- [Student unlocks](#student-unlocks)
+- [Design & CAD](#design-cad)
+- [Cloud credits](#cloud-credits)
+- [Learning](#learning)
+- [Niche gems](#niche-gems)
+
+
+## Databases
+
+- **[Neon](https://neon.tech)**: Serverless Postgres that scales to zero. Limits: 0.5 GB · 5 GB egress/mo · scale-to-zero after 5m. Who: anyone. Cost: free forever. commercial ok.
+- **[Turso](https://turso.tech)**: LibSQL at the edge — strong for read-heavy apps. Limits: 5 GB · 500M reads/mo · 100 DBs. Who: anyone. Cost: free forever. commercial ok.
+- **[Supabase](https://supabase.com)**: Postgres BaaS with auth, storage, and REST out of the box. Limits: 0.5 GB DB · 50k MAU · pauses after 7d idle. Who: anyone. Cost: free forever. commercial ok.
+- **[Upstash Redis](https://upstash.com)**: Serverless Redis for cache and queues. Limits: 256 MB · 10k commands/day. Who: anyone. Cost: free forever. commercial ok.
+- **[Convex](https://convex.dev)**: Reactive backend with realtime sync for collaborative UIs. Limits: 0.5 GB · 1M function calls/mo. Who: anyone. Cost: free forever. commercial ok.
+- **[Cloudflare D1](https://developers.cloudflare.com/d1/)**: SQLite at the edge on Workers. Limits: 5 GB / DB · 5M rows read/day on free Workers. Who: anyone. Cost: free forever. commercial ok.
+- **[MongoDB Atlas M0](https://www.mongodb.com/cloud/atlas)**: Classic document store, free forever shared cluster. Limits: 512 MB shared. Who: anyone. Cost: free forever. commercial ok.
+- **[Appwrite Cloud](https://appwrite.io)**: Auth + DB + Functions in one BaaS. Limits: 2 projects · 2 GB storage. Who: anyone. Cost: free forever. commercial ok.
+
+## Hosting
+
+- **[Cloudflare Workers & Pages](https://workers.cloudflare.com)**: Edge functions + unlimited static hosting. Limits: 100k requests/day · static unlimited. Who: anyone. Cost: free forever. commercial ok.
+- **[Koyeb](https://www.koyeb.com)**: Managed containers that stay up 24/7 on free micro. Limits: 1 web service · 512 MB · 0.1 vCPU. Who: anyone. Cost: free forever. commercial ok.
+- **[Vercel Hobby](https://vercel.com)**: Next.js-native deploys. Personal projects only. Limits: 100 GB bandwidth/mo · non-commercial. Who: anyone. Cost: free forever. hobby only.
+- **[Railway](https://railway.app)**: Git-push containers with a small monthly credit. Limits: ~$5 credit/mo then $5 base + usage. Who: anyone. Cost: credits. commercial ok.
+- **[Render](https://render.com)**: Web services without a credit card. Sleeps when idle. Limits: 750 hrs/mo · sleep after 15m · free Postgres expires 30d. Who: anyone. Cost: free forever. commercial ok.
+- **[Netlify](https://www.netlify.com)**: JAMstack hosting + serverless functions. Limits: 100 GB bandwidth · 300 build min/mo. Who: anyone. Cost: free forever. check ToS.
+- **[Deno Deploy](https://deno.com/deploy)**: TypeScript at the edge; pairs with Deno KV. Limits: 1M requests/mo. Who: anyone. Cost: free forever. commercial ok.
+- **[Oracle Cloud Always Free](https://www.oracle.com/cloud/free/)**: Real VMs forever — if you survive signup. Limits: 2× AMD VMs + 4 ARM OCPUs · 200 GB block. Who: anyone. Cost: free forever. commercial ok.
+
+## Auth & secrets
+
+- **[Clerk](https://clerk.com)**: Pre-built auth UI for B2B/B2C. Limits: 50k MRU. Who: anyone. Cost: free forever. commercial ok.
+- **[Kinde](https://kinde.com)**: Auth with SSO and feature flags. Limits: ~10.5k MAU. Who: anyone. Cost: free forever. commercial ok.
+- **[Doppler](https://www.doppler.com)**: Secrets sync to Vercel, Koyeb, Railway. Limits: 5 users free · Team free via GitHub Pack while student. Who: anyone. Cost: free forever. commercial ok.
+- **[Hookdeck](https://hookdeck.com)**: Webhook ingest with retries and queues. Limits: 100k events/mo · 3-day retention. Who: anyone. Cost: free forever. commercial ok.
+- **[Infisical](https://infisical.com)**: Open-source Doppler alternative. Limits: Free cloud tier for secrets sync. Who: anyone. Cost: free forever. commercial ok.
+
+## Email & forms
+
+- **[Resend](https://resend.com)**: Transactional email with React Email DX. Limits: 3k emails/mo · 100/day · 1 domain. Who: anyone. Cost: free forever. commercial ok.
+- **[Brevo](https://www.brevo.com)**: Marketing + transactional in one forever-free tier. Limits: 300 emails/day. Who: anyone. Cost: free forever. commercial ok.
+- **[Loops](https://loops.so)**: Product/lifecycle email for SaaS onboarding. Limits: 1k contacts free. Who: anyone. Cost: free forever. commercial ok.
+- **[Tally / Formspark](https://tally.so)**: Drop-in forms without standing up a backend. Limits: Generous free form caps. Who: anyone. Cost: free forever. commercial ok.
+
+## Storage & media
+
+- **[Cloudflare R2](https://www.cloudflare.com/developer-platform/r2/)**: S3-compatible object storage with zero egress fees. Limits: 10 GB · 1M Class A · 10M Class B · $0 egress. Who: anyone. Cost: free forever. commercial ok.
+- **[Backblaze B2](https://www.backblaze.com/b2/cloud-storage.html)**: Cheap archive storage; egress waived via Cloudflare. Limits: 10 GB free. Who: anyone. Cost: free forever. commercial ok.
+- **[UploadThing](https://uploadthing.com)**: File uploads wired for Next.js in minutes. Limits: 2 GB storage. Who: anyone. Cost: free forever. commercial ok.
+- **[Cloudinary](https://cloudinary.com)**: On-the-fly image and video transforms. Limits: 25 credits/mo. Who: anyone. Cost: free forever. commercial ok.
+
+## Jobs & automation
+
+- **[Inngest](https://www.inngest.com)**: Durable functions, retries, cron — no Redis babysitting. Limits: ~50k steps/mo. Who: anyone. Cost: free forever. commercial ok.
+- **[Trigger.dev](https://trigger.dev)**: Long-running Node jobs with observability. Limits: Generous free tier. Who: anyone. Cost: free forever. commercial ok.
+- **[Upstash QStash](https://upstash.com/qstash)**: HTTP queue that wakes serverless endpoints. Limits: 500 messages/day. Who: anyone. Cost: free forever. commercial ok.
+- **[Pipedream / n8n Cloud](https://pipedream.com)**: Glue APIs together without writing glue code. Limits: Free workflow caps. Who: anyone. Cost: free forever. check ToS.
+
+## Observability
+
+- **[PostHog](https://posthog.com)**: Product analytics, session replay, feature flags. Limits: ~1M events/mo · no CC for free caps. Who: anyone. Cost: free forever. commercial ok.
+- **[Sentry](https://sentry.io)**: Error tracking with source maps. Boosted via Pack. Limits: ~5k errors/mo public · Pack: ~50k + Team features. Who: student helps. Cost: free forever. commercial ok.
+- **[Axiom](https://axiom.co)**: Structured logs that don't melt your laptop. Limits: Generous free ingest (~500 GB/mo class). Who: anyone. Cost: free forever. commercial ok.
+- **[UptimeRobot](https://uptimerobot.com)**: Know when the free PaaS fell asleep. Limits: 50 monitors. Who: anyone. Cost: free forever. commercial ok.
+
+## Student unlocks
+
+- **[GitHub Student Developer Pack](https://education.github.com/pack)**: One verification unlocks 80+ partner offers + Pro/Copilot/Codespaces. Limits: Re-verify ~2 yrs · partner offers rotate. Who: student required. Cost: student free. check ToS.
+- **[JetBrains All Products](https://www.jetbrains.com/community/education/)**: IntelliJ, PyCharm, WebStorm, Rider, CLion — full pack. Limits: Free while student · renew yearly · edu/non-commercial. Who: student required. Cost: student free. edu only.
+- **[GitHub Copilot Student](https://docs.github.com/en/copilot)**: AI pair programmer free via GitHub Education. Limits: While verified · offer sometimes pauses. Who: student required. Cost: student free. commercial ok.
+- **[GitHub Codespaces](https://github.com/features/codespaces)**: Cloud dev environments on your personal account. Limits: ~180 core hours/mo. Who: student required. Cost: student free. commercial ok.
+- **[Azure for Students](https://azure.microsoft.com/en-us/free/students/)**: $100 credit/year, no credit card, renewable while enrolled. Limits: $100 / 12 mo · 25+ free services. Who: student required. Cost: credits. edu only.
+- **[MATLAB Campus-Wide / Online](https://matlab.mathworks.com)**: Full toolbox suite + browser MATLAB if your uni licenses it. Limits: Via university email · 100+ academic toolboxes. Who: student required. Cost: student free. edu only.
+- **[Notion Education](https://www.notion.so/product/notion-for-education)**: Plus-class notes; Pack adds extra AI responses. Limits: While student · school email / Pack. Who: student required. Cost: student free. commercial ok.
+- **[Perplexity Pro Student](https://www.perplexity.ai/hub/student-discount)**: Research AI with citations — often 1 year free. Limits: Promo term (typically 1 yr). Who: student required. Cost: student free. commercial ok.
+- **[Unity Student](https://unity.com/products/unity-student)**: Unity Pro Editor for verified students 16+. Limits: SheerID · personal machines. Who: student required. Cost: student free. check ToS.
+- **[Termius Premium (Pack)](https://termius.com)**: SSH synced across laptop and phone. Limits: While in GitHub Pack. Who: student required. Cost: student free. commercial ok.
+- **[LocalStack (Pack)](https://localstack.cloud)**: Full AWS emulator — practice without burning credits. Limits: Full license via Pack. Who: student required. Cost: student free. check ToS.
+- **[1Password (Pack)](https://1password.com)**: Password manager + Developer Tools for a year. Limits: 1 year free via Pack · export before expiry. Who: student required. Cost: student free. commercial ok.
+
+## Design & CAD
+
+- **[Figma Education](https://www.figma.com/education/apply)**: Professional plan free for higher-ed students. Limits: Yearly reapply · edu-only · K-12 gets Enterprise. Who: student required. Cost: student free. edu only.
+- **[Figma Starter](https://www.figma.com)**: Anyone can design with free Starter limits. Limits: Starter plan caps. Who: anyone. Cost: free forever. commercial ok.
+- **[Autodesk Education](https://www.autodesk.com/education)**: AutoCAD, Fusion 360, Maya, Revit — renewable yearly. Limits: 1-year renewable · non-commercial. Who: student required. Cost: student free. edu only.
+- **[Adobe Creative Cloud Student](https://www.adobe.com/creativecloud/plans.html)**: All Apps cheaper — still a subscription. Limits: ~60% off retail. Who: student required. Cost: discount. check ToS.
+- **[Godot](https://godotengine.org)**: Open-source game engine. No student ID needed. Limits: Fully free / open source. Who: anyone. Cost: free forever. commercial ok.
+
+## Cloud credits
+
+- **[DigitalOcean (Pack)](https://www.digitalocean.com)**: Platform credit for droplets and App Platform. Limits: ~$200 windows · check GPU exclusions / expiry. Who: student required. Cost: credits. commercial ok.
+- **[Heroku (Pack)](https://www.heroku.com)**: Simple PaaS credit for 24 months. Limits: $13/mo × 24 months. Who: student required. Cost: credits. commercial ok.
+- **[MongoDB Atlas Credits (Pack)](https://www.mongodb.com/cloud/atlas)**: Stacks on top of free M0 forever tier. Limits: $50 credits + free University cert path. Who: student required. Cost: credits. commercial ok.
+- **[AWS Educate](https://aws.amazon.com/education/awseducate/)**: Learning paths, badges, sandboxed labs. Limits: Lab credits vary by path. Who: student helps. Cost: credits. edu only.
+- **[Namecheap .me (Pack)](https://www.namecheap.com)**: Free domain year for a portfolio. Limits: 1 yr .me + SSL · renew paid later. Who: student required. Cost: student free. commercial ok.
+
+## Learning
+
+- **[Frontend Masters (Pack)](https://frontendmasters.com)**: Deep frontend and systems courses. Limits: 6 months via Pack. Who: student required. Cost: student free. commercial ok.
+- **[Educative (Pack)](https://www.educative.io)**: Interactive courses — system design, interviews. Limits: 6 months · 30% off later. Who: student required. Cost: student free. commercial ok.
+- **[DataCamp (Pack)](https://www.datacamp.com)**: Data and ML course supplement. Limits: 3 months individual. Who: student required. Cost: student free. commercial ok.
+- **[Boot.dev (Pack)](https://www.boot.dev)**: Backend / DevOps learning path. Limits: 3 months full membership. Who: student required. Cost: student free. commercial ok.
+
+## Niche gems
+
+- **[MotherDuck](https://motherduck.com)**: DuckDB in the cloud — analytics without a warehouse. Limits: ~10 GB. Who: anyone. Cost: free forever. commercial ok.
+- **[Val Town](https://www.val.town)**: Serverless JS as shareable vals — cron + HTTP. Limits: Free tier vals. Who: anyone. Cost: free forever. check ToS.
+- **[LiveKit Cloud](https://livekit.io)**: WebRTC SFU for voice/video without Coturn ops. Limits: Free A/V minutes. Who: anyone. Cost: free forever. commercial ok.
+- **[Tinybird](https://www.tinybird.co)**: ClickHouse-backed APIs from event streams. Limits: Free starter tier. Who: anyone. Cost: free forever. commercial ok.
+- **[Svix](https://www.svix.com)**: Outbound webhook delivery (Hookdeck's dual for sending). Limits: ~50k messages/mo. Who: anyone. Cost: free forever. commercial ok.
+- **[Dub.co](https://dub.co)**: Link shortener with analytics — no Bitly tax. Limits: Free plan. Who: anyone. Cost: free forever. commercial ok.
+- **[Groq / Google AI Studio](https://console.groq.com)**: Free LLM API quotas for MVP experiments. Limits: Quota-based free tiers. Who: anyone. Cost: free forever. check ToS.
+- **[Hugging Face Spaces](https://huggingface.co/spaces)**: Prototype ML demos on free CPU Spaces. Limits: Free CPU · limited inference. Who: anyone. Cost: free forever. commercial ok.
+- **[Cron-job.org](https://cron-job.org)**: External cron — ping sleeping Render apps before demos. Limits: Free external cron jobs. Who: anyone. Cost: free forever. commercial ok.
+- **[Zyte Scrapy Cloud (Pack)](https://www.zyte.com)**: One Scrapy Cloud unit forever via Pack. Limits: 1 unit forever · 120d retention. Who: student required. Cost: student free. commercial ok.
+
+---
+
+## Contributing
+
+See [contributing.md](contributing.md). Only add tools you'd actually recommend. Always include a limit string.
+
+## License
+
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the contributors have waived all copyright and related rights to this work.
