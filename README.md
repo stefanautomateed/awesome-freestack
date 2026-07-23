@@ -1,6 +1,6 @@
 # Awesome Freestack [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Curated free developer tools, student unlocks, and startup-lean / AI cost options — with **limits**, who can claim them, and commercial notes.
+Curated free developer tools, student unlocks, startup-lean / AI / security / PH campus options — with **limits**, who can claim them, and commercial notes.
 
 Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo [`freestack`](https://github.com/kuyacarlo/freestack). Offers rotate; re-check vendor pages.
 
@@ -13,12 +13,15 @@ Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo
 - [Storage & media](#storage-media)
 - [Jobs & automation](#jobs-automation)
 - [Observability](#observability)
+- [Security](#security)
+- [Search & data](#search-data)
 - [AI & models](#ai-models)
 - [Startup lean](#startup-lean)
 - [Student unlocks](#student-unlocks)
 - [Design & CAD](#design-cad)
 - [Cloud credits](#cloud-credits)
 - [Learning](#learning)
+- [PH & campus](#ph-campus)
 - [Niche gems](#niche-gems)
 
 
@@ -58,6 +61,10 @@ Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo
 - **[Brevo](https://www.brevo.com)**: Marketing + transactional in one forever-free tier. Limits: 300 emails/day. Who: anyone. Cost: free forever. commercial ok.
 - **[Loops](https://loops.so)**: Product/lifecycle email for SaaS onboarding. Limits: 1k contacts free. Who: anyone. Cost: free forever. commercial ok.
 - **[Tally / Formspark](https://tally.so)**: Drop-in forms without standing up a backend. Limits: Generous free form caps. Who: anyone. Cost: free forever. commercial ok.
+- **[Twilio Trial](https://www.twilio.com)**: SMS/voice for OTP and alerts — trial credit, then meter hard. Limits: Trial credit · numbers can be restricted · PAYG after. Who: anyone. Cost: credits. commercial ok. Verified: 2026-07-24.
+- **[Vonage (Nexmo)](https://www.vonage.com/communications-apis/)**: SMS/voice alternative when Twilio pricing or coverage is awkward. Limits: Signup credit crumbs · PAYG. Who: anyone. Cost: credits. commercial ok. Verified: 2026-07-24.
+- **[Postmark](https://postmarkapp.com)**: Transactional email with serious deliverability — trial then paid. Limits: Free trial / approval · not forever-free. Who: anyone. Cost: credits. commercial ok. Verified: 2026-07-24.
+- **[Twilio SendGrid](https://sendgrid.com)**: Legacy free forever email tier — still useful, watch reputation limits. Limits: Free forever ~100 emails/day class · verify current Free plan. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
 
 ## Storage & media
 
@@ -80,6 +87,31 @@ Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo
 - **[Axiom](https://axiom.co)**: Structured logs that don't melt your laptop. Limits: Generous free ingest (~500 GB/mo class). Who: anyone. Cost: free forever. commercial ok.
 - **[UptimeRobot](https://uptimerobot.com)**: Know when the free PaaS fell asleep. Limits: 50 monitors. Who: anyone. Cost: free forever. commercial ok.
 
+## Security
+
+- **[Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/)**: CAPTCHA alternative — bot checks without the UX tax. Limits: Free widget · generous request caps on free plan. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Better Auth](https://www.better-auth.com)**: Open-source auth library — own the sessions, skip Clerk bill until you need hosted UI. Limits: OSS · self-host · your infra cost only. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[SuperTokens](https://supertokens.com)**: Open-source auth with optional managed cloud — self-host free. Limits: Self-host free · managed free tier then paid. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[WorkOS](https://workos.com)**: Enterprise SSO/SCIM when a B2B customer asks — free until you have orgs paying. Limits: Free up to active-user thresholds · then usage. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Snyk Free](https://snyk.io)**: Dependency + container vuln scanning in CI before you ship known CVEs. Limits: Free for open source / limited private tests · check current Free caps. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Socket.dev](https://socket.dev)**: Supply-chain alerts for npm/pypi — catch malicious packages early. Limits: Free tier for public / small private · paid for orgs. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Gitleaks](https://gitleaks.io)**: Secret scanning in git history — run in pre-commit and CI. Limits: OSS CLI free · Gitleaks Cloud optional paid. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[TruffleHog](https://trufflesecurity.com/trufflehog)**: Deep secret hunting across repos and history — verify before you rotate everything. Limits: OSS free · enterprise cloud paid. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Tailscale](https://tailscale.com)**: Zero-config mesh VPN for homelab, staging, and private admin panels. Limits: Personal free · 3 users / 100 devices class Free plan. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[CrowdSec](https://www.crowdsec.net)**: Collaborative IDS — block noisy scanners without a WAF invoice. Limits: OSS agent free · Console free tier then paid. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Let's Encrypt](https://letsencrypt.org)**: Free TLS certificates — boring, required, still the default. Limits: Rate limits per domain · 90-day certs. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Have I Been Pwned API](https://haveibeenpwned.com/API/Key)**: Check passwords / emails against breach corpora (k-anonymity range API). Limits: Free Pwned Passwords API · paid for some enterprise feeds. Who: anyone. Cost: free forever. check ToS. Verified: 2026-07-24.
+
+## Search & data
+
+- **[Typesense Cloud](https://typesense.org)**: Typo-tolerant search without standing up Elasticsearch. Limits: Free/hobby cluster sizes · or self-host OSS free. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Meilisearch Cloud](https://www.meilisearch.com)**: Fast product/docs search — generous free docs + cloud starter. Limits: Cloud free tier · self-host OSS unlimited. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Algolia DocSearch](https://docsearch.algolia.com)**: Free search for open-source documentation sites (DocSearch program). Limits: Free for qualifying open-source docs · paid for product search. Who: anyone. Cost: free forever. check ToS. Verified: 2026-07-24.
+- **[ClickHouse Cloud](https://clickhouse.com/cloud)**: Analytics warehouse without babysitting shards — free tier for experiments. Limits: Development free tier · then usage. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[DuckDB](https://duckdb.org)**: $0 local warehouse — Parquet/CSV analytics on a laptop before MotherDuck. Limits: OSS · runs in-process · MotherDuck for cloud. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Sequin](https://sequinstream.com)**: Postgres change streams / sync when “just poll the DB” stops scaling. Limits: OSS + cloud free tiers · check current caps. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Parquet + Arrow](https://parquet.apache.org)**: Columnar files as your cheap datalake — pair with DuckDB, skip Snowflake early. Limits: Open formats · storage = your disk/R2 bill. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+
 ## AI & models
 
 - **[OpenRouter](https://openrouter.ai)**: One API for many models — route cheap for drafts, frontier for hard steps. Limits: Pay-per-token · free-tier models available · set spend caps. Who: anyone. Cost: credits. commercial ok.
@@ -96,6 +128,12 @@ Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo
 - **[Helicone](https://www.helicone.ai)**: Proxy for LLM APIs — caching + spend visibility with one base URL swap. Limits: Free tier with request caps. Who: anyone. Cost: free forever. commercial ok.
 - **[Mem0](https://mem0.ai)**: Managed memory layer for agents so you don't reinvent user context stores. Limits: Free tier for early agents. Who: anyone. Cost: free forever. commercial ok.
 - **[Browserbase](https://www.browserbase.com)**: Hosted browsers for agent scraping/automation without Playwright ops. Limits: Free trial / starter caps · then usage. Who: anyone. Cost: credits. commercial ok.
+- **[Ollama](https://ollama.com)**: Local LLMs on your machine — true $0 inference for drafts and offline work. Limits: OSS · your GPU/CPU · model licenses vary. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[LM Studio](https://lmstudio.ai)**: GUI local models + OpenAI-compatible server — good teammate to Ollama. Limits: Free app · model licenses vary. Who: anyone. Cost: free forever. check ToS. Verified: 2026-07-24.
+- **[Voyage AI](https://www.voyageai.com)**: Strong embeddings API when retrieval quality matters more than chat. Limits: Free tokens on signup · then PAYG. Who: anyone. Cost: credits. commercial ok. Verified: 2026-07-24.
+- **[Together Embeddings](https://www.together.ai)**: Open-weight embeddings via Together — cheaper RAG than closed APIs. Limits: PAYG · promo credits sometimes. Who: anyone. Cost: credits. commercial ok. Verified: 2026-07-24.
+- **[Vercel AI SDK](https://sdk.vercel.ai)**: Pattern/library for streaming UI — not a free model tier. Bring your own keys. Limits: OSS SDK free · inference cost = your provider. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Continue.dev](https://continue.dev)**: Open-source coding assistant in the IDE — point at Ollama or cheap APIs. Limits: OSS · your model backend. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
 
 ## Startup lean
 
@@ -114,7 +152,8 @@ Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo
 - **[Paddle / Lemon Squeezy](https://www.lemonsqueezy.com)**: Merchant of record — taxes/VAT handled so you can sell globally early. Limits: Fee % of revenue · no monthly until you sell. Who: anyone. Cost: discount. commercial ok.
 - **[Plain / Freshdesk Lite](https://www.plain.com)**: Support inbox when Discord DMs stop scaling. Limits: Free tiers / trials · graduate when ticket volume hurts. Who: anyone. Cost: free forever. commercial ok.
 - **[Fly.io](https://fly.io)**: Global VMs near users — PAYG after free allowances changed; still lean vs hyperscale. Limits: No classic free tier for new accounts · small bills if sized right. Who: anyone. Cost: credits. commercial ok.
-- **[HTMX + Go/Python SSR](https://htmx.org)**: Skip SPA tax until product-market fit — fewer JS bundles, cheaper hosting. Limits: Open source · pairs with Cloudflare/Koyeb/Oracle. Who: anyone. Cost: free forever. commercial ok.
+- **[HTMX + Go/Python SSR](https://htmx.org)**: Skip SPA tax until product-market fit — fewer JS bundles, cheaper hosting. Limits: Open source · pairs with Cloudflare/Koyeb/Oracle. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Intercom](https://www.intercom.com)**: Support suite — free crumbs exist; paywall hits fast. Prefer Chatwoot early. Limits: Limited free/trial · expensive at seat scale · anti-reco for day-0. Who: anyone. Cost: discount. commercial ok. Verified: 2026-07-24.
 
 ## Student unlocks
 
@@ -153,6 +192,17 @@ Companion site: [freestac.kuyacarlo.dev](https://freestac.kuyacarlo.dev) · repo
 - **[Educative (Pack)](https://www.educative.io)**: Interactive courses — system design, interviews. Limits: 6 months · 30% off later. Who: student required. Cost: student free. commercial ok.
 - **[DataCamp (Pack)](https://www.datacamp.com)**: Data and ML course supplement. Limits: 3 months individual. Who: student required. Cost: student free. commercial ok.
 - **[Boot.dev (Pack)](https://www.boot.dev)**: Backend / DevOps learning path. Limits: 3 months full membership. Who: student required. Cost: student free. commercial ok.
+
+## PH & campus
+
+- **[uplb.tools](https://www.uplb.tools/)**: UPLB campus utilities — rooms, gradesim, housing links. Privacy-first. Limits: Free web tools · not an official UP site. Who: student helps. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Room TBA](https://room-tba.uplbtools.me/)**: Find UPLB rooms, schedules, jeepney routes — offline-capable PWA. Limits: Free · open source. Who: student helps. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Elbi GradeSim](https://gradesim.uplbtools.me/)**: AMIS grade overlay for GWA / Latin honors simulation — data stays local. Limits: Browser extension · free. Who: student helps. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Awesome PH EdTech](https://github.com/smmariquit/awesome-ph-edtech)**: Curated PH education tech list — K-12, college, offline-first. Limits: Markdown list · CC0. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[Awesome PH Student Life](https://github.com/smmariquit/awesomeph-studentlife)**: Campus navigation, housing, grades, getting started — PH student ops. Limits: Markdown list · CC0. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
+- **[CodeChum](https://www.codechum.com)**: PH auto-grader ubiquitous in college CS — know it even if you don't love it. Limits: Institutional licenses · student access via class. Who: student helps. Cost: discount. check ToS. Verified: 2026-07-24.
+- **[DepEd Commons](https://commons.deped.gov.ph/)**: National SLMs / modules — useful if you build for K-12 or tutors. Limits: Free content · gov platform. Who: anyone. Cost: free forever. check ToS. Verified: 2026-07-24.
+- **[Abakada](https://github.com/Abakada-org/abakada)**: PWA directory of 1000+ free tools for Filipino students/teachers — offline UI. Limits: Free · open source. Who: anyone. Cost: free forever. commercial ok. Verified: 2026-07-24.
 
 ## Niche gems
 
