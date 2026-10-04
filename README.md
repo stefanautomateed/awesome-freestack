@@ -47,6 +47,8 @@ Companion site: [freestack.kuyacarlo.dev](https://freestack.kuyacarlo.dev) · re
 - **[Deno Deploy](https://deno.com/deploy)**: TypeScript at the edge; pairs with Deno KV. Limits: 1M requests/mo. Who: anyone. Cost: free forever. commercial ok.
 - **[Oracle Cloud Always Free](https://www.oracle.com/cloud/free/)**: Real VMs forever — if you survive signup. Limits: 2× AMD VMs + 4 ARM OCPUs · 200 GB block. Who: anyone. Cost: free forever. commercial ok.
 
+- **[Shipvela](https://shipvela.com/)**: Publish React, Vite and static sites from GitHub or a CLI, with custom domains and managed HTTPS. Limits: 3 projects · 20 publishes/mo. Who: anyone. Cost: ongoing $0 Hobby tier. check ToS. Verified: 2026-10-04.
+
 ## Auth & secrets
 
 - **[Clerk](https://clerk.com)**: Pre-built auth UI for B2B/B2C. Limits: 50k MRU. Who: anyone. Cost: free forever. commercial ok.
